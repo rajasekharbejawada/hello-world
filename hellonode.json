@@ -1,0 +1,63 @@
+{
+"executionRoleArn": null,
+"containerDefinitions": [
+{
+"dnsSearchDomains": null,
+"logConfiguration": null,
+"entryPoint": null,
+"portMappings": [
+{
+"hostPort": 8081,
+"protocol": "tcp",
+"containerPort": 3000
+}
+],
+"command": null,
+"linuxParameters": null,
+"cpu": 0,
+"environment": [
+{
+"name": "DB_HOST",
+"value": "mongodb://34.204.177.217:27017/app"
+}
+],
+"ulimits": null,
+"dnsServers": null,
+"mountPoints": [],
+"workingDirectory": null,
+"dockerSecurityOptions": null,
+"memory": 500,
+"memoryReservation": null,
+"volumesFrom": [],
+"image": "docker.io/saiganesh/meancrud",
+"disableNetworking": null,
+"healthCheck": null,
+"essential": true,
+"links": null,
+"hostname": null,
+"extraHosts": null,
+"user": null,
+"readonlyRootFilesystem": null,
+"dockerLabels": null,
+"privileged": null,
+"name": "hellonode"
+}
+],
+"placementConstraints": [],
+"memory": null,
+"taskRoleArn": null,
+"compatibilities": [
+"EC2"
+],
+"taskDefinitionArn": "arn:aws:ecs:us-east-1:041298212360:task-definition/testnode:3",
+"family": "testnode",
+"requiresAttributes": [],
+"requiresCompatibilities": [
+"EC2"
+],
+"networkMode": null,
+"cpu": null,
+"revision": 3,
+"status": "ACTIVE",
+"volumes": []
+} 
