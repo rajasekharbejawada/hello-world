@@ -69,7 +69,7 @@
     "KeyName": {
       "Type": "AWS::EC2::KeyPair::KeyName",
       "Description": "Optional - Name of an existing EC2 KeyPair to enable SSH access to the ECS instances",
-      "Default": ""
+      "Default": "KeyName"
     },
     "VpcId": {
       "Type": "String",
@@ -111,7 +111,7 @@
     "EcsCluster" : {
       "Type" : "String",
       "Description" : "ECS Cluster Name",
-      "Default" : "getting-started"
+      "Default" : "Testing-G1"
     }
   },
   "Conditions": {
